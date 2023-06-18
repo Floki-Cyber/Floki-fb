@@ -13,7 +13,7 @@ arc = str(platform.uname().machine)
 if 'arm' in arc:
 	__import__("OFF").offfside()
 elif 'aarch' in arc:
-	__import__("Floki").ninex()
+	__import__("Floki").flokki()
 else:
 	exit(f' Unknow device machine {arc}')
 
